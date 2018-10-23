@@ -1,0 +1,55 @@
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profile-image {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.other-images { 
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 5%;
+    margin: 5px 15px 10px;
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+.circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 8px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 72px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    position: absolute;
+    top: 167px;
+    right: 30px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}

@@ -1,0 +1,75 @@
+{
+    "title": "Gabriel Beto Rocha",
+    "age": "20",
+    "summary": "Estudante de Sistemas de informação, criativo para resolver problemas, desenvolvedor web apaixonado por FrontEnd e fazer telinhas bonitas.",
+    "contact" : "(32) 99145-9856",
+    "email": "gabrielbeto83@gmail.com",
+    "studies": [
+      {
+        "institute": "Instituto Federal do Sudeste de Minas Gerais, Campus Juiz de Fora",
+        "logo": "https://www.ifsudestemg.edu.br/sites/all/themes/ifet/logo.png",
+        "url": "http://www.jf.ifsudestemg.edu.br/",
+        "title": "Bacharelado em Sistemas de Informação",
+        "durationInYears": "4",
+        "currentCourse": true,
+        "graduationYear": 2020
+      }
+    ],
+    "certifications": [
+      
+    ],
+    "experiences": [
+      {
+        "companyName": "AuE Software",
+        "logo": "http://auesoftware.com/Figuras/1-000.jpg",
+        "url": "http://auesoftware.com/capa.aspx",
+        "roles": [
+          {
+            "title": "Estagiário de desenvolvimento .Net",
+            "description": "Responsável pela manutenção e desenvolvimento de sistemas web e sites da empresa na plataforma .Net, prestação de suporte à clientes da empresa nos programas comercializados pela mesma, além de manutenção e suporte de máquinas da empresa.",
+            "startDate": "07-07-2017",
+            "endDate": "07-07-2018",
+            "location": "Juiz de Fora, Brasil"
+          }
+        ]
+      }
+    ],
+    "skills" : [
+      {
+        "title" : "HTML",
+        "grade" : 100
+      },
+      {
+        "title" : "CSS",
+        "grade" : 90
+      },
+      {
+        "title" : "JavaScript",
+        "grade" : 60
+      },
+      {
+        "title" : "Bootstrap",
+        "grade" : 100
+      },
+      {
+        "title" : "WebDesign",
+        "grade" : 70
+      },
+      {
+        "title" : "Asp .Net",
+        "grade" : 60
+      },
+      {
+        "title" : "Java",
+        "grade" : 50
+      },
+      {
+        "title" : "VisualBasic .Net",
+        "grade" : 50
+      },
+      {
+        "title" : "C#",
+        "grade" : 40
+      }
+    ]
+  }
