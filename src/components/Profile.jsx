@@ -49,7 +49,7 @@ export default class Profile extends Component {
         <Jumbotron>
           <Container>
             <Row>
-              <Col>
+              <Col sm={12} md={6} lg={6}>
                 <div class="view overlay ">
                   <img
                     src="https://avatars3.githubusercontent.com/u/25808912?s=460&v=4"
@@ -61,7 +61,7 @@ export default class Profile extends Component {
                   </a>
                 </div>
               </Col>
-              <Col>
+              <Col sm={12} md={6} lg={6}>
                 <h3 className="display-4">{profile.title}</h3>
                 <h4 className="display-5">{profile.age} anos</h4>
                 <p className="lead">{profile.summary}</p>
@@ -81,7 +81,7 @@ export default class Profile extends Component {
         <Container className="pt-0 pb-5 mb-5">
           <Row>
             <Col>
-              <div className="text-center mt-5">
+              <div className="text-center mt-5 ">
                 <h4 className="display-5">Competências</h4>
               </div>
             </Col>
@@ -97,7 +97,7 @@ export default class Profile extends Component {
                   this.toggle("1");
                 }}
               >
-                Experiências
+                <span className="cursor">Experiências</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -107,7 +107,7 @@ export default class Profile extends Component {
                   this.toggle("2");
                 }}
               >
-                Formação
+                <span className="cursor">Formação</span>
               </NavLink>
             </NavItem>
           </Nav>

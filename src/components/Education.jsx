@@ -11,10 +11,10 @@ export default class Education extends Component {
           <Col>
             {profile.studies.map(function(study, i) {
               return (
-                <Media key={i}>
-                  <Media left top href={study.url}>
+                <Row key={i}>
+                  <Col left top href={study.url}>
                     <Media object src={study.logo} alt={study.institute} className="other-images"/>
-                  </Media>
+                  </Col>
                   <Media body>
                     <Media heading>
                       <a href={study.url}>{study.institute}</a>
@@ -46,7 +46,7 @@ export default class Education extends Component {
                       );
                     })}
                   </Media>
-                </Media>
+                </Row>
               );
             })}
           </Col>

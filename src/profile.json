@@ -28,7 +28,7 @@
             "title": "Estagiário de desenvolvimento .Net",
             "description": "Responsável pela manutenção e desenvolvimento de sistemas web e sites da empresa na plataforma .Net, prestação de suporte à clientes da empresa nos programas comercializados pela mesma, além de manutenção e suporte de máquinas da empresa.",
             "startDate": "07-07-2017",
-            "endDate": "07-07-2018",
+            "endDate": "07-13-2018",
             "location": "Juiz de Fora, Brasil"
           }
         ]
@@ -37,7 +37,7 @@
     "skills" : [
       {
         "title" : "HTML",
-        "grade" : 100
+        "grade" : 90
       },
       {
         "title" : "CSS",
@@ -49,7 +49,7 @@
       },
       {
         "title" : "Bootstrap",
-        "grade" : 100
+        "grade" : 95
       },
       {
         "title" : "WebDesign",

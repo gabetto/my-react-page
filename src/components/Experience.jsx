@@ -27,10 +27,10 @@ export default class Experience extends Component {
     
                 return (
                   <div key={i}>
-                    <Media>
-                      <Media left top href={experience.url}>
+                    <Row>
+                      <Col left top href={experience.url}>
                         <Media object src={experience.logo} alt={experience.companyName} className="other-images"/>
-                      </Media>
+                      </Col>
                       <Media body>
                         <Media heading>
                           <a href={experience.url}>{experience.companyName}</a>
@@ -53,7 +53,7 @@ export default class Experience extends Component {
                           </div>
                         })}
                       </Media>
-                    </Media>
+                    </Row>
                   </div>
                 );
               })}
