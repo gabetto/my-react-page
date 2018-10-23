@@ -37,7 +37,7 @@ export default class TopBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/profile/">Perfil</NavLink>
+                <NavLink href="https://github.com/gabetto?tab=repositories">Repositórios</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
