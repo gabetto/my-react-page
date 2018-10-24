@@ -12,7 +12,7 @@ export default class skills extends Component {
           <Row>
               {profile.skills.map(function(skill, i) {
                 return (
-                  <Col Key={i} sm={12} md={4} xl={4}>
+                  <Col sm={12} md={4} xl={4}>
                     <div className="text-center">
                       {skill.title}
                     </div>

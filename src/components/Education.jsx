@@ -8,7 +8,7 @@ export default class Education extends Component {
     return (
       <Container>
         <Row>
-          <Col>
+          <Row>
             {profile.studies.map(function(study, i) {
               return (
                 <Row key={i}>
@@ -49,7 +49,7 @@ export default class Education extends Component {
                 </Row>
               );
             })}
-          </Col>
+          </Row>
         </Row>
         <br />
         <br />
